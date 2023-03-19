@@ -1,0 +1,65 @@
+.home{
+    background: var(--mainColor);
+    height: 100%;
+}
+.box{
+    padding-top: 50px !important;
+    color: var(--textColorWhite);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.photo img{
+    width: 100%;
+}
+
+.info{
+    align-self: center;
+    display: grid;
+    grid-gap: 30px;
+}
+.greeting{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.title{
+    font-size: 70px;
+}
+.descr{
+    color: var(--textColorPassive);
+}
+.order_button{
+    background-color: var(--secondColor);
+    padding: 20px 30px;
+    margin-right: 30px;
+}
+.demo_button{
+    background: none;
+    color: var(--textColorWhite);
+    border-bottom: 1px solid var(--textColorWhite);
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.properties{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.params{
+    display: grid;
+    gap: 20px;
+    padding-left: 30px;
+}
+.param{
+    position: relative;
+}
+.param::before{
+    content: '';
+    display: block;
+    width: 15px;
+    aspect-ratio: 1;
+    background-color: var(--secondColor);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -30px;    
+} 

@@ -1,0 +1,9 @@
+.header{
+    background: var(--mainColor);
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 550px);
+    align-items: center;
+    gap: 30px;
+}

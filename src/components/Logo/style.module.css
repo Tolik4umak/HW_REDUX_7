@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logos span{
+    color: white;
+    font-weight: bold;
+
+} 
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social button{
+    padding: 7px;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: none;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+:root{
+    --mainColor: #1B3764;
+    --secondColor: #FFCA42;
+    --contentWigth: 1440px;
+    --textColorWhite: #FFF; 
+    --textColorBlue: #1B3764; 
+    --textColorPassive: #B4C7E7;
+    --textColorYellow: #FFCA42;
+    --textColorGray: #969AA0;
+    
+}
+
+
+
+
+head, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: var(--contentWigth);
+    padding: 10px 50px;
+}

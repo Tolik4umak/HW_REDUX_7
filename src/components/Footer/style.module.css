@@ -1,0 +1,48 @@
+.footer{
+    background: var(--mainColor);
+    padding: 70px 50px 100px; 
+}
+
+.box{
+    max-width: var(--contentWigth);
+    color: var(--textColorWhite);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.title{
+    margin-bottom: 30px;
+}
+.list_item{
+    list-style: none;
+    position: relative;
+    margin-left: 25px;
+    padding: 5px 0;
+    color: var(--textColorPassive);
+}
+
+.list_item:before{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 10px;
+    background: url('../../media/disk.png') 0 50%/ 3px 3px no-repeat,
+    url('../../media/disk.png') 50% 50%/ 3px 3px no-repeat,
+    url('../../media/disk.png') 100% 50%/ 3px 3px no-repeat;
+    position: absolute;
+    top: calc(50% - 5px);
+    left: -20px;
+}
+
+.contact{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+.info{
+    white-space: nowrap;
+}
+.desc{
+    color: var(--textColorPassive);
+}
